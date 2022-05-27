@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+.nav-bar {
+  width: 400px;
+}
+.nav-bar .links {
+  border: 3px solid rgb(184, 222, 46);
+  border-radius: 5px;
+  color: bisque;
+  padding: 5px 20px 5px 20px;
+  margin-left: 30px;
+}
+
+html body {
+  background-position: 0% 0%;
+  background-image: url("https://wallpaperaccess.com/full/144119.jpg");
+  background-size: cover;
+}
+.App {
+  font-family: 'Libre Bodoni', serif;
+}
+.App h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+#button-container {
+  margin-left: 2.5vw;
+  margin-bottom: 20px;
+}
+#button-container button {
+  width: 7.4vw;
+  min-width: 70px;
+  border: 2px solid rgb(209, 216, 255);
+  background-color: #E1AD68;
+  color: whitesmoke;
+  padding-top: 5px;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+#container-left {
+  width: 45vw;
+  height: 80vh;
+
+}
+#container-left .container {
+  width: 100%;
+  height: 100%;
+  padding : 0 !important;
+  margin: 0;
+
+}
+#container-left .container .outer-layer {
+  width: 100%;
+  height: 100%;
+  padding : none;
+  margin: 0 !important;
+  background-color: #6DAFA1 !important;
+  border: 2px solid rgb(209, 216, 255);
+}
+#container-left .container .outer-layer .inner-layer {
+  background-color: #377e71b2 !important;
+}
+#task-button-container {
+  display: flex;
+  margin-top: 2vh;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: max-content;
+}
+#task-button-container button {
+  max-width: 30%;
+  min-width: fit-content;
+  
+}
+#close-add-btn-container {
+  margin-top: 1.5vh;
+  display: flex;
+  justify-content: space-between;
+}
+#close-add-btn-container button {
+  background-color: #E1AD68;
+}
+#container-overlay {
+  width: 45vw;
+  background: #2e8377d4;
+  border: 2px solid rgb(209, 216, 255);
+  border-radius: 3px;
+}
+#container-overlay h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+#container-right .task {
+  line-height: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#container-right .task p {
+  margin: 5px 0 ;
+  color: whitesmoke;
+}
+#container-right .task button {
+  border: none;
+  padding-top: 4px;
+  height: 30px;
+  width: max-content;
+  border-radius: 3px;
+  background-color: rgba(167, 48, 48, 0.707);
+}
+.priority {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  margin-left: 20px;
+}
+div label {
+  display: block;
+  text-align: left;
+  color: whitesmoke;
+}
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+
+
+
